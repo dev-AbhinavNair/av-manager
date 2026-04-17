@@ -108,51 +108,6 @@ git push origin feature/your-feature-name
 ## Questions?
 Reach out to the lead before making assumptions. A 2-minute chat saves hours of wrong code.
 
-## The Folder Structure To Follow !!
-
-av-manager/
-│
-├── client/ # React + TypeScript (Vite)
-│ └── src/
-│ ├── assets/ # Images, icons, fonts
-│ ├── components/
-│ │ ├── ui/ # Generic: Button, Modal, Table
-│ │ ├── inventory/
-│ │ ├── events/
-│ │ └── workforce/
-│ ├── pages/
-│ │ ├── inventory/
-│ │ ├── events/
-│ │ └── workforce/
-│ ├── hooks/ # Custom React hooks
-│ ├── services/ # Axios API calls
-│ ├── store/ # Global state
-│ ├── types/ # TypeScript interfaces
-│ └── utils/ # Helper functions
-│
-└── server/ # Node.js + Express + TypeScript
-├── prisma/
-│ └── schema.prisma # Database schema
-└── src/
-├── index.ts # Entry point
-├── modules/
-│ ├── inventory/
-│ │ ├── inventory.routes.ts
-│ │ ├── inventory.controller.ts
-│ │ ├── inventory.service.ts
-│ │ └── inventory.middleware.ts
-│ ├── events/
-│ │ ├── events.routes.ts
-│ │ ├── events.controller.ts
-│ │ ├── events.service.ts
-│ │ └── events.middleware.ts
-│ └── workforce/
-│ ├── workforce.routes.ts
-│ ├── workforce.controller.ts
-│ ├── workforce.service.ts
-│ └── workforce.middleware.ts
-├── config/ # Supabase client, env config
-└── utils/ # Shared helpers
 
 
 
